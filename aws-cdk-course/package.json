@@ -1,0 +1,38 @@
+{
+  "name": "space-finder-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barosanuemailtest/space-finder-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barosanuemailtest/space-finder-backend/issues"
+  },
+  "homepage": "https://github.com/barosanuemailtest/space-finder-backend#readme",
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "aws-cdk": "^2.0.0-rc.1",
+    "aws-cdk-lib": "^2.66.1",
+    "constructs": "^10.1.264",
+    "esbuild": "^0.11.18",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@aws-amplify/auth": "^3.4.32",
+    "@aws-cdk/aws-dynamodb": "1.194.0",
+    "@aws-cdk/aws-lambda": "1.194.0",
+    "@types/aws-lambda": "^8.10.76",
+    "aws-amplify": "^4.0.0",
+    "aws-dynamodb": "^0.1.69",
+    "aws-sdk": "^2.900.0"
+  }
+}
